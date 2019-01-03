@@ -1,0 +1,12 @@
+dockerx search mohan-proj-manager
+dockerx inspect mohan-proj-manager
+
+dockerx image rm 4fe2b79732d2
+
+dockerx image search mohan-proj-manager 
+
+dockerx image ls -f "imageid=f621b2020352"
+
+f621b2020352
+
+dockerx images mohan-proj-manager
